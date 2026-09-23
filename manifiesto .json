@@ -1,1 +1,39 @@
-https://docs.google.com/document/d/1ZKapdhDxcDns0fthlPB2VDPV7Khnl4bZVk-LOMcSo1Q/edit?usp=drivesdk
+
+json
+{
+  "manifest_version": "1.0.0",
+  "project_name": "Sistema Global de Licencias",
+  "author": "Dandhyesparza Barajas EABD",
+  "compliance_matrix": {
+    "data_protection": {
+      "framework": "GDPR / APPI / LGPD / Ley Federal del Consumidor",
+      "encryption_required": true,
+      "user_consent_required": true,
+      "data_residency_restrictions": ["EU", "JP", "BR", "MX"]
+    },
+    "software_standards": {
+      "architecture": "Open Source Distribution",
+      "primary_license": "Apache-2.0",
+      "allowed_derivative_licenses": ["GPL-3.0", "BSD-3-Clause", "AGPL-3.0"],
+      "file_formats_accepted": [".md", ".txt", ".json"]
+    },
+    "geographic_and_economic_blocks": {
+      "european_union": {
+        "status": "compliant",
+        "applicable_law": "Regulation (EU) 2016/679 (GDPR)",
+        "required_registries": ["Data Protection Officer (DPO) Log", "Record of Processing Activities (RoPA)"]
+      },
+      "north_america_usmca": {
+        "status": "compliant",
+        "applicable_law": "T-MEC / USMCA Chapter 19 (Digital Trade)",
+        "required_registries": ["Cross-Border Data Transfer Logs", "Commercial Software Registry"]
+      },
+      "asia_pacific_cptpp": {
+        "status": "compliant",
+        "applicable_law": "CPTPP Chapter 14 (Electronic Commerce)",
+        "required_registries": ["Source Code Protection Declarations"]
+      }
+    }
+  }
+}
+
